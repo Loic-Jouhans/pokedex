@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello {{ controller_name }}!{% endblock %}
+
+{% block body %}
+
+<section class="articles">
+    <article>
+        <h2>Titre du pokémon</h2>
+        <div class="content">
+            <img src="https://via.placeholder.com/300x200.png/09f/fff" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed saepe cupiditate vel corporis dolore voluptatibus.</p>
+            <p>Ea placeat recusandae quo explicabo mollitia nulla quam eum, modi, dolorem, libero blanditiis nisi vero!</p>
+            <a href="{{ path('pokemon_show') }}" class="btn btn-primary">Voir plus</a>
+        </div>
+    </article>
+
+    <article>
+        <h2>Titre du pokémon</h2>
+        <div class="content">
+            <img src="https://via.placeholder.com/300x200.png/09f/fff" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem vero distinctio animi rerum dolore quae?</p>
+            <p>Qui blanditiis vitae veniam dolorum id molestiae magni eligendi voluptatem, ducimus facere suscipit veritatis ut.</p>
+            <a href="{{ path('pokemon_show') }}" class="btn btn-primary">Voir plus</a>
+        </div>
+    </article>
+
+    <article>
+        <h2>Titre du pokémon</h2>
+        <div class="content">
+            <img src="https://via.placeholder.com/300x200.png/09f/fff" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit fuga quo beatae consequatur fugiat ipsam.</p>
+            <p>Magnam ut deserunt quidem rerum saepe, sequi veniam, neque et fugit libero, recusandae est ex?</p>
+            <a href="{{ path('pokemon_show') }}" class="btn btn-primary">Voir plus</a>
+        </div>
+    </article>
+</section>
+
+{% endblock %}
